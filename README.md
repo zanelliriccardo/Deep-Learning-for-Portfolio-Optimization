@@ -5,7 +5,7 @@ Implementation of this paper:
 
 Paper describe how to optimize [Sharpe Ratio](https://en.wikipedia.org/wiki/Sharpe_ratio) using deep learning.
 
-Defining Sharpe Ratio as loss function we need to implement custom training.
+As I need to define Sharpe Ratio as loss function I need to implement a custom training.
 
 Also I tried to change the objective from LSTM to directly optimize Sharpe Ratio in LSTM for prediction and optimize Sharpe Ratio through quadratic programming.
 But Sharpe Ratio is not a convex function, so we have many possibilities:
